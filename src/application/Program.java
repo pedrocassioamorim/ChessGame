@@ -1,5 +1,6 @@
 package application;
 
+import Boardgame.Board;
 import Boardgame.Position;
 
 public class Program {
@@ -7,9 +8,8 @@ public class Program {
 
         System.out.println("Hello world!");
 
-        Position position = new Position(3,5);
+        Board board = new Board(8,8);
 
-        System.out.println(position);
 
     }
 }
